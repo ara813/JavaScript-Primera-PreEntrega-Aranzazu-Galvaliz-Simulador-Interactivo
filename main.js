@@ -90,7 +90,8 @@ console.log (presupuesto)
 
 function mostrarResultado (){
 let resultado = ( "Hola "+ nombre +" el presupuesto para la fotografia " + fotografia +" es de $"+ presupuesto);
-alert (resultado);             
+alert (resultado);        
+console.log (resultado)     
  }
  mostrarResultado ()
 
