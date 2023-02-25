@@ -30,6 +30,9 @@ for (let i=0; i<2; i++){
         }
         }
 
+alert ("El costo de la imagen inicialmente es de $1000"); 
+let lamina = 1000;
+console.log (1000)
 let marco = parseInt (prompt ("El costo del marco es de $4000. Ingrese 4000 si le gustaria agregar un marco sino deje en blanco"));
  if (!marco){
   alert ("Continuemos su compra");
@@ -84,7 +87,7 @@ else {
   console.log(3000)
   
 }  
-let presupuesto = (marco + vidrio + cancion + texto + envio);
+let presupuesto = (lamina + marco + vidrio + cancion + texto + envio);
 console.log (presupuesto)
 
 
@@ -218,6 +221,7 @@ switch (direction){
 
 function saludoFinal () {
   let saludo = ( "Gracias "+ nombre +" por tu compra nos comunicaremos contigo al mail " + mail + " tambien puedes comunicarte al whatsapp 3436-413715 por cualquier duda :)");
-  alert (saludo);      
+  alert (saludo);
+  console.log (saludo)      
 }
 saludoFinal()
