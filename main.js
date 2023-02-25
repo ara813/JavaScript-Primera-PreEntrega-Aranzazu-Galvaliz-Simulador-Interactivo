@@ -103,26 +103,32 @@ switch (song){
   case "SI" :
   let cancionIncrustada = prompt ("Ingrese el nombre de la cancion como aparece en spotify seguido del nombre del artista")
   alert ("Usted a elegido la cancion " + cancionIncrustada)
+  console.log ("Introdujo " + cancionIncrustada)
   break;
   case "si":
   let cancionIncrustada1 = prompt ("Ingrese el nombre de la cancion como aparece en spotify seguido del nombre del artista")
   alert ("Usted a elegido la cancion " + cancionIncrustada1)
+  console.log ("Introdujo " + cancionIncrustada1)
   break;
   case  "Si":
   let cancionIncrustada2 = prompt ("Ingrese el nombre de la cancion como aparece en spotify seguido del nombre del artista")
   alert ("Usted a elegido la cancion " + cancionIncrustada2)
+  console.log ("Introdujo " + cancionIncrustada2)
   break;
   case "NO":
   let noSong = ("Sigamos adelante")
   alert (noSong)
+  console.log("No ingreso cancion")
   break;
   case "no":
   let noSong1 = ("Sigamos adelante")
   alert (noSong1)
+  console.log("No ingreso cancion")
   break;
   case "No":
   let noSong2 = ("Sigamos adelante")
   alert (noSong2)
+  console.log("No ingreso cancion")
   break;
   default: 
   let problemas = ("Si tuvo problemas en este campo comuniquese al 3436-413715 una vez finalizado el tramite");
@@ -137,26 +143,32 @@ switch (text){
   case "SI":
   let textoAdd = prompt ("Ingrese el nombre, la frase o la fecha que desea agregar entre comillas y la zona donde le gustaria que aparzca")
   alert ("Usted a elegido agregar " + textoAdd)
+  console.log ("Introdujo " + textoAdd)
   break;
   case "si":
   let textoAdd1 = prompt ("Ingrese el nombre, la frase o la fecha que desea agregar entre comillas y la zona donde le gustaria que aparzca")
   alert ("Usted a elegido agregar " + textoAdd1)
+  console.log ("Introdujo" + textoAdd1)
   break;
   case "Si":
   let textoAdd2 = prompt ("Ingrese el nombre, la frase o la fecha que desea agregar entre comillas y la zona donde le gustaria que aparzca")
   alert ("Usted a elegido agregar " + textoAdd2)
+  console.log ("Introdujo" + textoAdd2)
   break;
   case "NO":
   let noText = ("Sigamos adelante")
   alert (noText)
+  console.log ("No introdujo texto")
   break;
   case "no":
   let noText1 = ("Sigamos adelante")
   alert (noText1)
+  console.log ("No introdujo texto")
   break;
   case "No":
   let noText2 = ("Sigamos adelante")
   alert (noText2)
+  console.log ("No introdujo texto")
   break;
   default: 
   let problemas = ("Si tuvo problemas en este campo comuniquese al 3436-413715 una vez finalizado el tramite");
@@ -170,26 +182,32 @@ switch (direction){
   case "SI":
   let donde = prompt ("Ingrese su direccion y codigo postal")
   alert ("Usted a elegido la direccion " + donde)
+  console.log ("Introdujo la direccion " + donde)
   break;
   case "si":
   let donde1 = prompt ("Ingrese su direccion y codigo postal")
   alert ("Usted a elegido la direccion " + donde1)
+  console.log ("Introdujo la direccion " + donde1)
   break;
   case "Si":
   let donde2 = prompt ("Ingrese su direccion y codigo postal")
   alert ("Usted a elegido la direccion " + donde2)
+  console.log ("Introdujo la direccion " + donde2)
   break;
   case "NO":
-  let noText = ("Sigamos adelante")
-  alert (noText)
+  let noDirection = ("Sigamos adelante")
+  alert (noDirection)
+  console.log ("No introjo direccion")
   break;
   case  "no":
-  let noText1 = ("Sigamos adelante")
-  alert (noText1)
+  let noDirection1 = ("Sigamos adelante")
+  alert (noDirection1)
+  console.log ("No introjo direccion")
   break;
   case "No":
-  let noText2 = ("Sigamos adelante")
-  alert (noText2)
+  let noDirection2 = ("Sigamos adelante")
+  alert (noDirection2)
+  console.log ("No introjo direccion")
   break;
   default: 
   let problemas = ("Si tuvo problemas en este campo comuniquese al 3436-413715 una vez finalizado el tramite");
