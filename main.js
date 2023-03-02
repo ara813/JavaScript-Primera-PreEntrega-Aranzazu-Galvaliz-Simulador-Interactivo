@@ -43,7 +43,7 @@ for (let i=0; i<2; i++){
   console.log("ENVIO: "+parametro5);
   let total = parametro0 + parametro1 + parametro2 + parametro3 + parametro4 + parametro5;
   console.log(total);
-  alert ("Hola " + nombre + " el costo de tu compra por la fotografia "+fotografia+" es de " + total)
+  alert ("Hola " + nombre + " el costo de tu compra por la fotografia "+fotografia+" es de $" + total)
 }
 let num0 = Number(1000);
 let num1 = parseFloat(prompt("El costo del marco es de $4000. Ingrese 4000 si le gustaria agregar un marco sino ingrese 0"));
